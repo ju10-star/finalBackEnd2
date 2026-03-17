@@ -1,0 +1,9 @@
+export const ErrorCodes = {
+
+  INVALID_TYPES_ERROR: 1,
+  DATABASE_ERROR: 2,
+  AUTH_ERROR: 3,
+  AUTHORIZATION_ERROR: 4,
+  NOT_FOUND_ERROR: 5
+
+};
