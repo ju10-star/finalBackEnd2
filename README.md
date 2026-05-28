@@ -1,6 +1,6 @@
 # finalBackEnd2
 
-# Proyecto Final Backend II – API de Adopciones
+# Proyecto Final Backend III – API de Adopciones
 
 Este proyecto implementa un API REST de adopciones con Node.js, Express y Jest para pruebas.  
 Incluye endpoints CRUD, validaciones y dockerización para despliegue.
