@@ -64,4 +64,4 @@ Incluye endpoints CRUD, validaciones y dockerización para despliegue.
 
             Publicación: Imagen disponible en DockerHub 
 
-            Repositorio GitHub: https://github.com/jul10star/finalbackend2
+            Repositorio GitHub: https://github.com/jul10star/finalBackEnd2
