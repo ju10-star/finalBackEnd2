@@ -6,6 +6,7 @@ import { config } from './config/config.js';
 import { initializePassport } from './config/passport.config.js';
 import { errorHandler } from './middlewares/errors.middleware.js';
 import { addLogger } from './middlewares/logger.middleware.js';
+import adoptionRouter from "./routes/adoption.routes.js";
 
 const app = express();
 
@@ -22,6 +23,8 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api', routes);
+
+app.use("/adoption", adoptionRouter);
 
 app.use(errorHandler);
 
